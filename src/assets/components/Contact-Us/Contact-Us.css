@@ -1,0 +1,132 @@
+/*Fonts*/
+@font-face {
+  font-family: Peyda-light;
+  src: url(/src/assets/fonts/Peyda-light.ttf);
+}
+@font-face {
+  font-family: Peyda-Thin;
+  src: url(/src/assets/fonts/Peyda-Thin.ttf);
+}
+@font-face {
+  font-family: Peyda-Regular;
+  src: url(/src/assets/fonts/Peyda-Regular.ttf);
+}
+@font-face {
+  font-family: Peyda-ExtraBold;
+  src: url(/src/assets/fonts/Peyda-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Peyda-Bold;
+  src: url(/src/assets/fonts/Peyda-Bold.ttf);
+}
+@font-face {
+  font-family: Peyda-Medium;
+  src: url(/src/assets/fonts/Peyda-Medium.ttf);
+}
+/*-------------Conponents-------------*/
+/*Body Background*/
+div:empty {
+  background: linear-gradient(
+    90deg,
+    rgba(216, 251, 238, 1) 0%,
+    rgba(9, 121, 49, 0) 50%,
+    rgba(38, 139, 75, 0) 50%,
+    rgb(211, 236, 227) 100%
+  );
+  height: 500px;
+}
+.body-color {
+  background: rgb(216, 251, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(216, 251, 238, 1) 0%,
+    rgba(9, 121, 49, 0) 50%,
+    rgba(38, 139, 75, 0) 50%,
+    rgb(211, 236, 227) 100%
+  );
+}
+.img-primary {
+  right: 340px;
+  position: relative;
+  width: 447.188px;
+  height: 362.391px;
+}
+.img-secondary {
+  right: 194px;
+  position: absolute;
+  width: 880.219px;
+}
+.square {
+  background: #fff;
+  border-radius: 40px;
+  width: 70%;
+  margin: 50px 55px 0 0;
+}
+.square--secondary {
+  background: #fff;
+  border-radius: 30px;
+  width: 90%;
+  height: 300px;
+  margin: 50px 55px 0 0;
+  text-align: center;
+}
+.square--third {
+  background: #fff;
+  border-radius: 30px;
+  width: 69%;
+  height: 500px;
+  margin: 50px 55px 0 0;
+  position: absolute;
+  top: 950px;
+  right: 150px;
+}
+.circle {
+  height: 246px;
+  width: 246px;
+  background: linear-gradient(
+    0deg,
+    rgba(92, 158, 156, 1) 44%,
+    rgba(194, 177, 131, 1) 95%
+  );
+  margin-top: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.text-circle {
+  font-family: "Peyda-light";
+  color: #fff;
+  word-spacing: 2px;
+}
+
+.map-size {
+  border-radius: 22px;
+  margin-top: 8px;
+  height: 95%;
+  width: 95%;
+}
+
+.card-header {
+  border: 0;
+  border-radius: 15px 0px 0px 15px !important;
+  background: linear-gradient(
+    0deg,
+    rgba(92, 158, 156, 1) 44%,
+    rgba(194, 177, 131, 1) 95%
+  );
+  color: #fff;
+  display: inline-block;
+  font-family: "Peyda-light", sans-serif;
+  font-size: 1.4rem;
+  padding: 25px 23px 25px 23px;
+  opacity: 0.8;
+  text-align: center;
+}
+/*Lists*/
+.list__icon {
+  width: 2rem;
+}
+.list__text {
+  font-family: "Peyda-Medium", sans-serif;
+  display: inline-block;
+}
