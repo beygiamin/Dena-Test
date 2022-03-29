@@ -162,6 +162,21 @@ div:empty {
   border-radius: 7px;
   display: flex;
   justify-content: center;
-  margin-right: 43.4%;
+  margin-right: 42.5%;
   margin-top: 3%;
+}
+@media screen and (min-width: 954px) {
+  .input-btn {
+    display: block;
+    width: 130px;
+    border: 0;
+    background: #adf6db;
+    font-family: "Peyda-Medium", sans-serif;
+    padding: 10px 8px 10px 8px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    margin-right: 43.5%;
+    margin-top: 3%;
+  }
 }
