@@ -46,16 +46,24 @@ div:empty {
   );
 }
 .img-primary {
-  right: 340px;
-  position: relative;
-  width: 447.188px;
-  height: 362.391px;
+  top: 100px;
+  left: 50px;
+  position: absolute;
+  width: 31.5%;
 }
-.img-secondary {
+@media screen and (max-width: 768px) {
+  .img-primary {
+    position: static;
+    width: 70%;
+    height: 70%;
+  }
+}
+
+/* .img-secondary {
   right: 194px;
   position: absolute;
   width: 880.219px;
-}
+} */
 .square {
   background: #fff;
   border-radius: 40px;
@@ -67,7 +75,7 @@ div:empty {
   border-radius: 30px;
   width: 90%;
   height: 300px;
-  margin: 50px 55px 0 0;
+  margin: 50px 5% 0 0;
   text-align: center;
 }
 .square--third {
@@ -76,9 +84,6 @@ div:empty {
   width: 69%;
   height: 500px;
   margin: 50px 55px 0 0;
-  position: absolute;
-  top: 950px;
-  right: 150px;
 }
 .circle {
   height: 246px;
@@ -91,7 +96,6 @@ div:empty {
   margin-top: 25px;
   border-radius: 50%;
   display: inline-block;
-  position: relative;
 }
 .text-circle {
   font-family: "Peyda-light";
@@ -129,4 +133,35 @@ div:empty {
 .list__text {
   font-family: "Peyda-Medium", sans-serif;
   display: inline-block;
+}
+/*INPUTS*/
+.input-block {
+  background: #fff;
+  border-radius: 2%;
+  width: 80%;
+  text-align: center;
+  margin: 0 10% 0 0;
+  padding: 50px;
+}
+.form-control {
+  background: #adf6db;
+  font-family: "Peyda-Regular", sans-serif;
+  padding: 3.5% !important;
+  border-radius: 7px;
+}
+.form-pad {
+  padding: 25px !important;
+}
+.input-btn {
+  display: block;
+  width: 130px;
+  border: 0;
+  background: #adf6db;
+  font-family: "Peyda-Medium", sans-serif;
+  padding: 10px 8px 10px 8px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  margin-right: 43.4%;
+  margin-top: 3%;
 }
